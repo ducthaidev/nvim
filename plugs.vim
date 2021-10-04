@@ -15,8 +15,11 @@ call plug#begin('~/.vim/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'tpope/vim-commentary'
     Plug 'airblade/vim-gitgutter'
-    Plug 'puremourning/vimspector'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-fugitive'
+    Plug 'joshdick/onedark.vim'
+    Plug 'sheerun/vim-polyglot'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 call plug#end()

@@ -5,7 +5,7 @@ source $HOME/.config/nvim/keymappings.vim
 " core
 source $HOME/.config/nvim/settings.vim
 " theme
-source $HOME/.config/nvim/themes/onedark.vim
+""source $HOME/.config/nvim/themes/onedark.vim
 
  " auto source when writing
 au! BufWritePost $HOME/.config/nvim/plugs.vim source %
